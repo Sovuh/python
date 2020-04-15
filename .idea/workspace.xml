@@ -42,6 +42,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python\python\mysite\blog\migrations\migSave" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -95,7 +100,9 @@
       <updated>1585594774948</updated>
       <workItem from="1585594778580" duration="948000" />
       <workItem from="1586806530433" duration="3249000" />
-      <workItem from="1586881305538" duration="6764000" />
+      <workItem from="1586881305538" duration="7000000" />
+      <workItem from="1586965200945" duration="1179000" />
+      <workItem from="1586967584065" duration="4621000" />
     </task>
     <servers />
   </component>

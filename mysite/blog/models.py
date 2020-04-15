@@ -14,12 +14,14 @@ class Post(models.Model):
     publish=models.DateTimeField(default=timezone.now)
     created=models.DateTimeField(auto_now_add=True)
     updated=models.DateTimeField(auto_now=True)
-    status=models.CharField(max_length=10,choices=STATUS_CHOICES,default='draft')
+    status=models.CharField(max_length=10, choices=STATUS_CHOICES, default='draft')
 
-    class Meta:
-        ordering = ('-publish',)
-    def __str__(self):
-        return self.title
+class Meta:
+    ordering = ('-publish',)
+
+def __str__(self):
+    return self.title
+
 class PublishedManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().filter(status='published')
