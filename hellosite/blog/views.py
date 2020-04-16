@@ -25,6 +25,6 @@ def post_detail(request, year, month, day, post):
 class PostListView(ListView):
     queryset = Post.published.all()
     context_object_name = 'posts'
-    paginate_by = 3
+    paginate_by = 10
     template_name = 'blog/post/list.html'
 # Create your views here.
