@@ -31,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,11 +40,13 @@
   </component>
   <component name="ProjectId" id="1ZrQXmj3Zj0uLcqZW8vSjFFuDmI" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python\python\hellosite\blog\templates\blog" />
       <recent name="C:\python\python\mysite\blog\migrations\migSave" />
     </key>
   </component>
@@ -103,6 +106,7 @@
       <workItem from="1586881305538" duration="7000000" />
       <workItem from="1586965200945" duration="1179000" />
       <workItem from="1586967584065" duration="6424000" />
+      <workItem from="1587057217356" duration="6825000" />
     </task>
     <servers />
   </component>
