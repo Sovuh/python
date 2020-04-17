@@ -3,6 +3,20 @@ from django.shortcuts import render, get_object_or_404
 from .models import Post
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import ListView
+from .forms import EmailPostFrom
+
+def post_share(request, post_id):
+    # Получение статьи по идентификатору
+    post = get_object_or_404(Post, id=post_id, status='published')
+    if request.method == 'POST':
+        # Форма отправлена на сохранение
+        form = EmailPostFrom(request.POST)
+        if form.is_valid():
+            # Все формы прошли валидации
+            cd = form.cleaned_data
+        else:
+            form = EmailPostFrom()
+            return render(request, 'blog/post/share.html', {'post': post, 'form': form})
 
 def post_list(request):
     object_list = Post.published.all()
