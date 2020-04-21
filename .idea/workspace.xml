@@ -42,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -112,7 +112,8 @@
       <workItem from="1587094760352" duration="714000" />
       <workItem from="1587200431727" duration="14294000" />
       <workItem from="1587281037576" duration="2417000" />
-      <workItem from="1587378732210" duration="14380000" />
+      <workItem from="1587378732210" duration="16311000" />
+      <workItem from="1587454577125" duration="7463000" />
     </task>
     <servers />
   </component>
