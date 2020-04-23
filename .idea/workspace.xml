@@ -42,10 +42,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bookmarks/account/templates/account" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\python\python\bookmarks\account\templates\account" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\python\python\hellosite\blog\templatetags" />
       <recent name="C:\python\python\hellosite\blog\static\css\image" />
@@ -116,7 +119,8 @@
       <workItem from="1587378732210" duration="16311000" />
       <workItem from="1587454577125" duration="8047000" />
       <workItem from="1587466056815" duration="8634000" />
-      <workItem from="1587563507994" duration="2592000" />
+      <workItem from="1587563507994" duration="3791000" />
+      <workItem from="1587629414708" duration="3973000" />
     </task>
     <servers />
   </component>
