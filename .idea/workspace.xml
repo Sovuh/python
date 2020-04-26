@@ -32,6 +32,7 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,14 +47,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\python\python\bookmarks\account\templates\account" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python\python\bookmarks\images\templates" />
+      <recent name="C:\python\python\bookmarks\images\templates\images" />
       <recent name="C:\python\python\hellosite\blog\templatetags" />
       <recent name="C:\python\python\hellosite\blog\static\css\image" />
       <recent name="C:\python\python\hellosite\blog\templates\blog" />
-      <recent name="C:\python\python\mysite\blog\migrations\migSave" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\python\python\bookmarks\account\templates\account" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -123,6 +125,7 @@
       <workItem from="1587629414708" duration="5773000" />
       <workItem from="1587715560589" duration="5985000" />
       <workItem from="1587799301286" duration="4551000" />
+      <workItem from="1587893395026" duration="4209000" />
     </task>
     <servers />
   </component>
