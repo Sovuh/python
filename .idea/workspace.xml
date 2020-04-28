@@ -33,6 +33,7 @@
         <option value="HTML File" />
         <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,6 +45,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bookmarks/account/templates/account" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -126,6 +128,7 @@
       <workItem from="1587715560589" duration="5985000" />
       <workItem from="1587799301286" duration="4551000" />
       <workItem from="1587893395026" duration="4209000" />
+      <workItem from="1588048781824" duration="423000" />
     </task>
     <servers />
   </component>

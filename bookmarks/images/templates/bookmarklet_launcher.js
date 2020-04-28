@@ -5,6 +5,6 @@
     else {
         document.body.appendChild(
             document.createElement('script')
-        ).src='http://127.0.0.1:8000/static/js/bookmarklet.js?=' + math.floor(Math.random()*99999999999999999999)
+        ).src='=\'https://3f6ad53c.ngrok.io/static/js/bookmarklet?r=' + math.floor(Math.random()*99999999999999999999)
     }
 })
