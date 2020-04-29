@@ -5,6 +5,9 @@ from django.urls import reverse
 
 
 class Image(models.Model):
+    def get_absolute_url(self):
+        return reverse('image:detail', args=[self.id, self.slug])
+
     user = models.ForeignKey(settings.AUTH_USER_MODEL,
                              related_name='images_created',
                              on_delete=models.CASCADE)

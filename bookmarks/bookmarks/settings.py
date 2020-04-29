@@ -24,7 +24,7 @@ SECRET_KEY = '7$qq!a#=qwm(gql3^8tgn+7&b@px1+-55(c3n(a!s!$p*6urf0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1', ''3f6ad53c.ngrok.io'']
+ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1', '3f6ad53c.ngrok.io']
 
 # Application definition
 
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'social_django',
     'images.apps.ImagesConfig',
+    'sorl.thumbnail',
 ]
 
 MIDDLEWARE = [
